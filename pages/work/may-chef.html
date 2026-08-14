@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../css/variables.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/navigation.css">
+    <link rel="stylesheet" href="../../css/may-chef.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
+
+    
+    <!-- Portfolio typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- May Chef typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- == NAVIGATION == -->
+
+    <nav class="navigation">
+
+        <a href="../../index.html" class="logo">
+            <img src="../../assets/logos/alex_logo_2.svg" alt="Alex Antonov Logo">
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+            <img src="../../assets/menu/menu.svg" alt="Menu">
+        </button>
+
+    </nav>
+
+
+    <!-- == SIDE MENU == -->
+
+    <aside class="side-menu" id="sideMenu">
+
+        <button class="close-menu" id="closeMenu" aria-label="Close menu">
+            <img src="../../assets/menu/close.png" alt="Close">
+        </button>
+
+        <nav class="menu-links">
+
+            <a href="../../pages/work.html" class="menu-link">
+                <span class="menu-outline">
+                    <svg class="outline-svg" viewBox="0 0 290 87" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M52.34,83.15L32.32,83.15C14.44 83.15 3,70.58 3,50.93L3,35.21C3,15.57 14.44,3 32.32,3L205.35,3" />
+                        <path
+                            d="M251.11,3L257.55,3C275.43,3 286.15,15.57 286.15,35.22L286.15,50.94C286.15,70.58 275.42,83.16 257.55,83.16L95.95,83.16" />
+                    </svg>
+                </span>
+
+                <span class="menu-text">
+                    Work
+                </span>
+            </a>
+
+
+            <a href="../../pages/photography.html" class="menu-link">
+                <span class="menu-outline">
+                    <svg class="outline-svg" viewBox="0 0 290 87" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M52.34,83.15L32.32,83.15C14.44,83.15 3,70.58 3,50.93L3,35.21C3,15.57 14.44,3 32.32,3L205.35,3" />
+                        <path
+                            d="M251.11,3L257.55,3C275.43,3 286.15,15.57 286.15,35.22L286.15,50.94C286.15,70.58 275.42,83.16 257.55,83.16L95.95,83.16" />
+                    </svg>
+                </span>
+
+                <span class="menu-text">
+                    Photo
+                </span>
+            </a>
+
+
+            <a href="../../pages/artwork.html" class="menu-link">
+                <span class="menu-outline">
+                    <svg class="outline-svg" viewBox="0 0 290 87" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M52.34,83.15L32.32,83.15C14.44,83.15 3,70.58 3,50.93L3,35.21C3,15.57 14.44,3 32.32,3L205.35,3" />
+                        <path
+                            d="M251.11,3L257.55,3C275.43,3 286.15,15.57 286.15,35.22L286.15,50.94C286.15,70.58 275.42,83.16 257.55,83.16L95.95,83.16" />
+                    </svg>
+                </span>
+
+                <span class="menu-text">
+                    Art
+                </span>
+            </a>
+
+
+            <a href="../../index.html#contact" class="menu-link">
+                <span class="menu-outline">
+                    <svg class="outline-svg" viewBox="0 0 290 87" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M52.34,83.15L32.32,83.15C14.44,83 3,70.58 3,50.93L3,35.21C3,15.57 14.44,3 32.32,3L205.35,3" />
+                        <path
+                            d="M251.11,3L257.55,3C275.43,3 286.15,15.57 286.15,35.22L286.15,50.94C286.15,70.58 275.42,83.16 257.55,83.16L95.95,83.16" />
+                    </svg>
+                </span>
+
+                <span class="menu-text">
+                    Contact
+                </span>
+            </a>
+
+        </nav>
+
+    </aside>
+
+    <div class="overlay" id="overlay"></div>
+
+
+    <main class="may-chef">
+
+        <!-- = 01 / PROJECT OVERVIEW = -->
+        <section class="mc-section mc-overview" id="overview">
+
+            <div class="mc-container">
+
+                <div class="mc-section-label">
+
+                    <span class="mc-section-number">
+                        01
+                    </span>
+
+                    <span class="mc-section-name">
+                        PROJECT OVERVIEW
+                    </span>
+
+                </div>
+
+
+                <div class="mc-overview__intro">
+
+                    <p class="mc-kicker">
+                        May Chef Atelier
+                    </p>
+
+                    <h1>
+
+                        <span class="mc-sans-accent">
+                            Food, ritual
+                        </span>
+
+                        <br>
+
+                        <em>
+                            &amp; everyday movement.
+                        </em>
+
+                    </h1>
+
+                    <p class="mc-overview__description">
+                        May Chef Atelier is a premium performance
+                        cuisine concept based in Encamp, Andorra.
+                        The brand focuses on designed energy,
+                        specialty coffee, functional meals,
+                        recovery, daily rhythm and quiet luxury.
+                    </p>
+
+                </div>
+
+
+                <figure class="mc-cover">
+
+                    <img src="../../assets/projects/may-chef/cover.png"
+                        alt="May Chef Atelier">
+
+                </figure>
+
+
+                <div class="mc-meta">
+
+                    <span>
+                        May Chef Atelier
+                    </span>
+
+                    <span>
+                        Encamp — Andorra
+                    </span>
+
+                </div>
+
+
+                <!-- ROLE / SCOPE -->
+
+                <div class="mc-scope">
+
+                    <div class="mc-scope__copy">
+
+                        <span class="mc-kicker">
+                            Role / Scope
+                        </span>
+
+                        <p>
+                            Brand and communication direction developed around the
+                            existing May Chef Atelier identity, including colour system,
+                            typography direction, social media visual system, Instagram
+                            post design, menu layout direction, campaign and
+                            collaboration materials, and content strategy.
+                        </p>
+
+                        <p class="mc-scope__note">
+                            <strong>Logo provided by client.</strong>
+                        </p>
+
+                    </div>
+
+
+                    <div class="mc-scope__roles" aria-label="Project scope">
+
+                        <span class="mc-scope__role">
+                            Brand Direction
+                        </span>
+
+                        <span class="mc-scope__role">
+                            Colour System
+                        </span>
+
+                        <span class="mc-scope__role">
+                            Typography Direction
+                        </span>
+
+                        <span class="mc-scope__role">
+                            Social Media Visual System
+                        </span>
+
+                        <span class="mc-scope__role">
+                            Instagram Post Design
+                        </span>
+
+                        <span class="mc-scope__role">
+                            Menu Layout Direction
+                        </span>
+
+                        <span class="mc-scope__role">
+                            Campaign &amp; Collaboration Materials
+                        </span>
+
+                        <span class="mc-scope__role">
+                            Content Strategy
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- = 02 / BRAND DIRECTION = -->
+        <section class="mc-section mc-direction" id="brand-direction">
+
+            <div class="mc-container">
+
+                <div class="mc-section-label">
+
+                    <span class="mc-section-number">
+                        02
+                    </span>
+
+                    <span class="mc-section-name">
+                        BRAND DIRECTION
+                    </span>
+
+                </div>
+
+
+                <!-- BRAND DIRECTION INTRO -->
+
+                <div class="mc-direction__intro">
+
+                    <h2 class="mc-brand-direction__statement">
+
+                        <span>
+                            A visual system
+                        </span>
+
+                        <em>
+                            built around the everyday.
+                        </em>
+
+                    </h2>
+
+                </div>
+
+
+                <!-- =================================================
+                 COLOUR PALETTE
+                ================================================== -->
+
+                <div class="mc-brand-system mc-palette">
+
+                    <div class="mc-system-copy">
+
+                        <p class="mc-kicker">
+                            Colour Palette
+                        </p>
+
+                        <h2 class="mc-palette__statement">
+
+                            <span>
+                                Warm,
+                            </span>
+
+                            <span>
+                                grounded
+                            </span>
+
+                            <em>
+                                and human.
+                            </em>
+
+                        </h2>
+
+                        <p>
+                            The colour system was designed to feel
+                            calm, premium and natural — inspired by
+                            stone, glass, light, shadow and warm
+                            neutral surfaces.
+                        </p>
+
+                    </div>
+
+
+                    <div class="mc-palette__visual">
+
+                        <img src="../../assets/projects/may-chef/colors.svg"
+                            alt="May Chef Atelier colour palette">
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                 TYPOGRAPHY
+                ================================================== -->
+
+                <div class="mc-brand-system mc-typography" id="typography">
+
+                    <div class="mc-system-copy">
+
+                        <p class="mc-kicker">
+                            Typography System
+                        </p>
+
+                        <h2 class="mc-typography__statement">
+
+                            <span>
+                                Editorial
+                            </span>
+
+                            <span>
+                                contrast
+                            </span>
+
+                            <em>
+                                through type.
+                            </em>
+
+                        </h2>
+
+                        <p>
+                            The typography system balances editorial
+                            expression with everyday clarity. The
+                            primary display typeface is used for
+                            elegance, editorial expression and premium
+                            brand moments, while the secondary
+                            functional typeface supports clarity,
+                            hierarchy, menus, service information and
+                            social media communication.
+                        </p>
+
+                        <p class="mc-type-direction">
+
+                            <span>
+                                Serif for emotion.
+                            </span>
+
+                            <span>
+                                Sans-serif for information.
+                            </span>
+
+                        </p>
+
+                    </div>
+
+
+                    <!-- TYPE SPECIMEN -->
+
+                    <div class="mc-type-specimen">
+
+
+                        <!-- PRIMARY TYPEFACE -->
+
+                        <div class="mc-typeface mc-typeface--primary">
+
+                            <div class="mc-type-label">
+                                Primary Display Typeface
+                            </div>
+
+                            <div class="mc-type-name">
+                                Cormorant Garamond
+                            </div>
+
+                            <div class="mc-type-alphabet">
+                                ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                            </div>
+
+                            <div class="mc-type-alphabet">
+                                abcdefghijklmnopqrstuvwxyz
+                            </div>
+
+                            <div class="mc-type-numbers">
+                                1234567890
+                            </div>
+
+                        </div>
+
+
+                        <!-- SECONDARY TYPEFACE -->
+
+                        <div class="mc-typeface mc-typeface--secondary">
+
+                            <div class="mc-type-label">
+                                Secondary Functional Typeface
+                            </div>
+
+                            <div class="mc-type-name">
+                                Manrope
+                            </div>
+
+                            <div class="mc-type-alphabet">
+                                ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                            </div>
+
+                            <div class="mc-type-alphabet">
+                                abcdefghijklmnopqrstuvwxyz
+                            </div>
+
+                            <div class="mc-type-numbers">
+                                1234567890
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- = 03 / PRODUCT & INGREDIENTS = -->
+        <section class="mc-section mc-products" id="products">
+
+            <div class="mc-container">
+
+                <div class="mc-section-label">
+
+                    <span class="mc-section-number">
+                        03
+                    </span>
+
+                    <span class="mc-section-name">
+                        PRODUCT &amp; INGREDIENTS
+                    </span>
+
+                </div>
+
+
+                <div class="mc-section-heading">
+
+                    <p class="mc-kicker">
+                        The Challenge
+                    </p>
+
+                    <h2>
+                        More than
+                        <br>
+                        <em>
+                            healthy food.
+                        </em>
+                    </h2>
+
+                    <p>
+                        The challenge was to position May Chef
+                        Atelier as more than a healthy food place.
+                        The brand needed to feel premium, functional
+                        and calm — avoiding the visual clichés of
+                        fitness food, clean eating and mass-market
+                        wellness.
+                        The visual system translates this positioning
+                        into close-up product and ingredient
+                        photography, creating a language around food,
+                        preparation and everyday ritual.
+                    </p>
+
+                </div>
+
+
+                <!-- PRODUCT / INGREDIENT CAROUSEL -->
+
+                <div class="mc-carousel" data-carousel>
+
+                    <div class="mc-carousel__viewport">
+
+                        <div class="mc-carousel__track">
+
+
+                            <figure class="mc-slide">
+
+                                <img src="../../assets/projects/may-chef/artboard1.png"
+                                    alt="May Chef Atelier energy bar">
+
+                            </figure>
+
+
+                            <figure class="mc-slide">
+
+                                <img src="../../assets/projects/may-chef/artboard2.png"
+                                    alt="Close-up of date ingredient">
+
+                            </figure>
+
+
+                            <figure class="mc-slide">
+
+                                <img src="../../assets/projects/may-chef/artboard3.png"
+                                    alt="Close-up of peanuts">
+
+                            </figure>
+
+
+                            <figure class="mc-slide">
+
+                                <img src="../../assets/projects/may-chef/artboard4.png"
+                                    alt="Close-up of dark chocolate">
+
+                            </figure>
+
+
+                            <figure class="mc-slide">
+
+                                <img src="../../assets/projects/may-chef/artboard5.png"
+                                    alt="Close-up of puffed rice">
+
+                            </figure>
+
+
+                            <figure class="mc-slide">
+
+                                <img src="../../assets/projects/may-chef/artboard6.png"
+                                    alt="Close-up of sea salt">
+
+                            </figure>
+
+
+                            <figure class="mc-slide">
+
+                                <img src="../../assets/projects/may-chef/tea-1.jpg"
+                                    alt="Tea at May Chef Atelier">
+
+                            </figure>
+
+
+                            <figure class="mc-slide">
+
+                                <img src="../../assets/projects/may-chef/tea-2.jpg"
+                                    alt="Tea at May Chef Atelier">
+
+                            </figure>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- = 04 / CAMPAIGN / ENERGY BAR = -->
+        <section class="mc-section mc-campaign" id="campaign">
+
+            <div class="mc-container">
+
+                <div class="mc-section-label">
+
+                    <span class="mc-section-number">
+                        04
+                    </span>
+
+                    <span class="mc-section-name">
+                        CAMPAIGN / ENERGY BAR
+                    </span>
+
+                </div>
+
+
+                <div class="mc-campaign__intro">
+
+                    <div>
+
+                        <p class="mc-kicker">
+                            Campaign &amp; Collaboration
+                        </p>
+
+                        <h2>
+
+                            <span class="mc-sans-accent">
+                                Food that fuels
+                            </span>
+
+                            <br>
+
+                            <em>
+                                movement.
+                            </em>
+
+                        </h2>
+
+                    </div>
+
+
+                    <p>
+                        The identity was extended into campaign and
+                        collaboration materials, connecting May Chef
+                        Atelier's functional food offering with
+                        movement and performance.
+                    </p>
+
+                </div>
+
+
+                <div class="mc-energy-grid">
+
+
+                    <figure class="mc-energy-image mc-energy-image--large">
+
+                        <img src="../../assets/projects/may-chef/energy-1.png"
+                            alt="May Chef Atelier energy bar">
+
+                    </figure>
+
+
+                    <figure class="mc-energy-image">
+
+                        <img src="../../assets/projects/may-chef/energy-2.png"
+                            alt="May Chef Atelier energy bar and ingredients">
+
+                    </figure>
+
+
+                    <figure class="mc-energy-image">
+
+                        <img src="../../assets/projects/may-chef/energy-3.png"
+                            alt="May Chef Atelier energy bar ingredients">
+
+                    </figure>
+
+
+                </div>
+
+
+                <!-- SPORT / COLLABORATION -->
+
+                <div class="mc-sport">
+
+                    <figure class="mc-sport__image">
+
+                        <img src="../../assets/projects/may-chef/sparta.png"
+                            alt="May Chef Atelier and Spartan Race collaboration">
+
+                    </figure>
+
+
+                    <figure class="mc-sport__image">
+
+                        <img src="../../assets/projects/may-chef/energy-4.png"
+                            alt="Runner representing movement and sport">
+
+                    </figure>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- = 05 / SOCIAL CONTENT = -->
+        <section class="mc-section mc-editorial" id="editorial">
+
+            <div class="mc-container">
+
+                <div class="mc-section-label">
+
+                    <span class="mc-section-number">
+                        05
+                    </span>
+
+                    <span class="mc-section-name">
+                        SOCIAL CONTENT
+                    </span>
+
+                </div>
+
+
+                <div class="mc-editorial__intro">
+
+                    <div>
+
+                        <p class="mc-kicker">
+                            Social Media Visual System
+                        </p>
+
+                        <h2>
+                            A culinary magazine
+                            <br>
+                            <em>
+                                in everyday life.
+                            </em>
+                        </h2>
+
+                    </div>
+
+
+                    <p>
+                        The visual system was designed to extend
+                        naturally into social content, balancing food
+                        photography, editorial typography and
+                        everyday moments.
+
+                        Instagram posts, menu communication and
+                        promotional content share the same restrained
+                        visual language, allowing the brand to feel
+                        consistent without becoming repetitive.
+                    </p>
+
+                </div>
+
+
+                <!-- EDITORIAL GRID -->
+
+                <div class="mc-editorial-grid">
+
+
+                    <figure class="mc-editorial-card mc-editorial-card--large">
+
+                        <img src="../../assets/projects/may-chef/sub-4.png"
+                            alt="May Chef Atelier subscription communication">
+
+                    </figure>
+
+
+                    <figure class="mc-editorial-card">
+
+                        <img src="../../assets/projects/may-chef/sub-2.png"
+                            alt="May Chef Atelier open-to-everyone communication">
+
+                    </figure>
+
+
+                    <figure class="mc-editorial-card">
+
+                        <img src="../../assets/projects/may-chef/sub-3.png"
+                            alt="May Chef Atelier coffee and breakfast">
+
+                    </figure>
+
+
+                    <figure class="mc-editorial-card">
+
+                        <img src="../../assets/projects/may-chef/sub-1.png"
+                            alt="May Chef Atelier breakfast">
+
+                    </figure>
+
+
+                    <figure class="mc-editorial-card">
+
+                        <img src="../../assets/projects/may-chef/sub-8.png"
+                            alt="May Chef preparing food">
+
+                    </figure>
+
+
+                    <!-- ROW 2 -->
+                    <figure class="mc-editorial-card">
+
+                        <img src="../../assets/projects/may-chef/sub-6.png"
+                            alt="May Chef preparing meals">
+
+                    </figure>
+
+
+                    <figure class="mc-editorial-card">
+
+                        <img src="../../assets/projects/may-chef/sub-7.png"
+                            alt="Prepared meals in glass containers">
+
+                    </figure>
+
+
+                    <figure class="mc-editorial-card">
+
+                        <img src="../../assets/projects/may-chef/crystal-1.jpg"  
+                            alt="May Chef Atelier interior">
+
+                    </figure>
+
+
+                    <figure class="mc-editorial-card">
+
+                        <img src="../../assets/projects/may-chef/crystal-2.jpg"  
+                            alt="May Chef Atelier glass food container">
+
+                    </figure>
+
+
+                    <figure class="mc-editorial-card mc-editorial-card--large">
+
+                        <img src="../../assets/projects/may-chef/sub-5.png"
+                            alt="May Chef Atelier glass packaging communication">
+
+                    </figure>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <footer>
+        <p class="copyright">Alexander Antonov © 2026</p>
+        <span class="footer-signature">R.</span>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="../../js/navigation.js"></script>
+    <script src="../../js/may-chef.js"></script>
+
+</body>
+
+</html>

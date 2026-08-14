@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/panels.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="home-page">
+
+    <!-- = Navigation = -->
+
+    <nav class="navigation">
+
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+            <img src="assets/logos/alex_logo_2.svg" alt="Alex Antonov Logo">
+        </a>
+
+        <!-- Menu Button -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+
+            <img src="assets/menu/menu.svg" alt="Menu">
+
+        </button>
+    </nav>
+
+    <!-- = Side Menu = -->
+
+    <aside class="side-menu" id="sideMenu">
+
+        <!-- Close Button -->
+        <button class="close-menu" id="closeMenu" aria-label="Close menu">
+
+            <img src="assets/menu/close.png" alt="Close">
+
+        </button>
+
+        <nav class="menu-links">
+
+            <a href="pages/work.html" class="menu-link">
+                <span class="menu-outline">
+                    <svg class="outline-svg" viewBox="0 0 290 87" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M52.34,83.15L32.32,83.15C14.44,83.15 3,70.58 3,50.93L3,35.21C3,15.57 14.44,3 32.32,3L205.35,3" />
+                        <path
+                            d="M251.11,3L257.55,3C275.43,3 286.15,15.57 286.15,35.22L286.15,50.94C286.15,70.58 275.42,83.16 257.55,83.16L95.95,83.16" />
+                    </svg>
+                </span>
+                <span class="menu-text">Work</span>
+            </a>
+
+            <a href="pages/photography.html" class="menu-link">
+                <span class="menu-outline">
+                    <svg class="outline-svg" viewBox="0 0 290 87" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M52.34,83.15L32.32,83.15C14.44,83.15 3,70.58 3,50.93L3,35.21C3,15.57 14.44,3 32.32,3L205.35,3" />
+                        <path
+                            d="M251.11,3L257.55,3C275.43,3 286.15,15.57 286.15,35.22L286.15,50.94C286.15,70.58 275.42,83.16 257.55,83.16L95.95,83.16" />
+                    </svg>
+                </span>
+                <span class="menu-text">Photo</span>
+            </a>
+
+            <a href="pages/artwork.html" class="menu-link">
+                <span class="menu-outline">
+                    <svg class="outline-svg" viewBox="0 0 290 87" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M52.34,83.15L32.32,83.15C14.44,83.15 3,70.58 3,50.93L3,35.21C3,15.57 14.44,3 32.32,3L205.35,3" />
+                        <path
+                            d="M251.11,3L257.55,3C275.43,3 286.15,15.57 286.15,35.22L286.15,50.94C286.15,70.58 275.42,83.16 257.55,83.16L95.95,83.16" />
+                    </svg>
+                </span>
+                <span class="menu-text">Art</span>
+            </a>
+
+            <a href="#contact" class="menu-link">
+                <span class="menu-outline">
+                    <svg class="outline-svg" viewBox="0 0 290 87" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M52.34,83.15L32.32,83.15C14.44,83.15 3,70.58 3,50.93L3,35.21C3,15.57 14.44,3 32.32,3L205.35,3" />
+                        <path
+                            d="M251.11,3L257.55,3C275.43,3 286.15,15.57 286.15,35.22L286.15,50.94C286.15,70.58 275.42,83.16 257.55,83.16L95.95,83.16" />
+                    </svg>
+                </span>
+                <span class="menu-text">Contact</span>
+            </a>
+
+        </nav>
+
+
+    </aside>
+
+    <div class="overlay" id="overlay"></div>
+
+    <main class="stage">
+
+        <section class="hero">
+                    <div class="panel-media">
+                        <img src="assets/hero/me.png" alt="Alex">
+                    </div>
+        </section>
+
+
+        <section class="panel-track">
+
+            <article class="panel work">
+                <a class="panel-link" href="pages/work.html">
+                    <div class="panel-content">
+                        <span class="panel-number">01</span>
+                        <span class="panel-label">WORK</span>
+                        <h2>Building identities
+                            through thoughtful
+                            design.</h2>
+                    </div>
+                    <div class="panel-media">
+                        <img src="assets/hero/work_cover.png" loading="lazy" alt="Selected work">
+                    </div>
+                </a>
+            </article>
+
+
+            <article class="panel photo">
+                <a class="panel-link" href="pages/photography.html">
+                    <div class="panel-content">
+                        <span class="panel-number">02</span>
+                        <span class="panel-label">PHOTO</span>
+                        <h2>Capturing quiet
+                            moments and
+                            movement.</h2>
+                    </div>
+                    <div class="panel-media">
+                        <img src="assets/photography/urban/621791615_n.jpg"
+                            loading="lazy" alt="Selected Photo">
+                    </div>
+                </a>
+            </article>
+
+
+            <article class="panel art">
+                <a class="panel-link" href="pages/artwork.html">
+                    <div class="panel-content">
+                        <span class="panel-number">03</span>
+                        <span class="panel-label">ART</span>
+                        <h2>Personal studies,
+                            experiments and
+                            visual exploration.</h2>
+                    </div>
+                    <div class="panel-media">
+                        <img src="assets/artwork/626568511_18057841517362517_7856268846390750171_n.jpg" loading="lazy"
+                            alt="Selected Art">
+                    </div>
+                </a>
+            </article>
+
+
+            <article class="panel contact" id="contact">
+
+                <div class="panel-content">
+
+                    <span class="panel-number"></span>
+                    <span class="panel-label">CONTACT</span>
+
+                    <h2>Have a project in mind?</h2>
+
+                </div>
+
+                <div class="contact-body">
+
+                    <div class="contact-cta">
+
+                        <img src="assets/contact/lets_make_something.svg" alt="Let's make something">
+
+                    </div>
+
+                    <aside class="contact-sidebar">
+
+                        <div class="social-links">
+                            <a href="mailto:antonov.alexandar11@gmail.com" aria-label="Email">
+                                <img class="icon-email" src="assets/contact/email_icon.png" alt="Email">
+                            </a>
+
+                            <a href="https://www.instagram.com/vlexvndvr/" target="_blank"
+                                aria-label="Instagram">
+                                <img src="assets/contact/Instagram_icon.png" alt="Instagram">
+                            </a>
+
+                            <a href="https://www.behance.net/alexandarantonov1" target="_blank" aria-label="Behance">
+                                <img src="assets/contact/behance_icon.png" alt="Behance">
+                            </a>
+
+                            <a href="https://x.com/AlexanderS85646" target="_blank" aria-label="X">
+                                <img src="assets/contact/xlogo_icon.png" alt="X">
+                            </a>
+                        </div>
+                        <img class="qr-code" src="assets/contact/dummyqr.png" alt="QR Code">
+                    </aside>
+                </div>
+
+                <div class="contact-footer">
+                    <p>Alexander Antonov © 2026</p>
+                    <span class="footer-signature">R.</span>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="js/panels.js"></script>
+    <script src="js/navigation.js"></script>
+
+
+</body>
+
+</html>

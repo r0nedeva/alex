@@ -1,0 +1,421 @@
+/* = WORK PAGE = */
+
+
+.work-page {
+
+    width: 100%;
+
+    max-width: 1500px;
+
+    margin: 0 auto;
+
+    padding:
+        10rem
+        4rem
+        8rem;
+
+}
+
+/* = WORK INTRO = */
+.work-intro {
+
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap:
+        4rem;
+
+    align-items: end;
+
+    margin-bottom:
+        clamp(7rem, 12vw, 12rem);
+
+}
+
+
+.work-intro-header h1 {
+
+    margin: 0;
+
+    font-family:
+        "IBM Plex Mono",
+        monospace;
+
+    font-size:
+        clamp(3rem, 6vw, 6rem);
+
+    font-weight:
+        400;
+
+    line-height:
+        0.9;
+
+    letter-spacing:
+        -0.06em;
+
+    text-transform:
+        uppercase;
+
+}
+
+
+.work-intro-text {
+
+    max-width:
+        480px;
+
+}
+
+
+.work-intro-text p {
+
+    margin: 0;
+
+    font-family:
+        "IBM Plex Mono",
+        monospace;
+
+    font-size:
+        clamp(0.9rem, 1.2vw, 1.1rem);
+
+    line-height:
+        1.7;
+
+    letter-spacing:
+        0.02em;
+
+}
+
+
+/* = PROJECT GALLERY = */
+
+.work-projects {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap:
+        clamp(1.5rem, 3vw, 3.5rem);
+
+    align-items:
+        start;
+
+}
+
+
+/* = PROJECT = */
+
+.work-project {
+
+    position: relative;
+
+    display: block;
+
+    min-width: 0;
+
+    color: inherit;
+
+    text-decoration: none;
+
+}
+
+
+/* = PROJECT NUMBER = */
+
+.work-project-number {
+
+    margin-bottom:
+        0.5rem;
+
+    font-family:
+        Georgia,
+        serif;
+
+    font-size:
+        clamp(3.5rem, 5vw, 5.5rem);
+
+    font-style:
+        italic;
+
+    font-weight:
+        400;
+
+    line-height:
+        0.8;
+
+    letter-spacing:
+        -0.06em;
+
+    color:
+        var(--accent);
+
+    transform:
+        translateY(0);
+
+    transition:
+        transform 0.8s
+        cubic-bezier(.22, 1, .36, 1);
+
+}
+
+
+/* = PROJECT IMAGE = */
+
+.work-project-image {
+
+    width: 100%;
+
+    aspect-ratio: 2/5;
+
+    overflow: hidden;
+
+    background: var(--bg);
+
+    transition:
+        box-shadow 0.8s
+        cubic-bezier(.22, 1, .36, 1);
+}
+
+
+
+.work-project-image img {
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+
+    filter: grayscale(100%);
+
+    transition:
+        filter 1s ease,
+        transform 1s cubic-bezier(.22, 1, .36, 1);
+
+}
+
+
+/* = PROJECT LABEL = */
+
+.work-project-label {
+
+    display: flex;
+
+    justify-content:
+        space-between;
+
+    align-items:
+        center;
+
+    gap:
+        1rem;
+
+    padding:
+        0.9rem
+        0
+        0;
+
+    font-family:
+        "IBM Plex Mono",
+        monospace;
+
+    font-size:
+        clamp(0.7rem, 0.9vw, 0.85rem);
+
+    font-weight:
+        400;
+
+    letter-spacing:
+        0.12em;
+
+    text-transform:
+        uppercase;
+
+}
+
+
+.work-project-arrow {
+
+    display: inline-block;
+
+    font-size:
+        1.1em;
+
+    letter-spacing:
+        0;
+
+    transform:
+        translateX(0);
+
+    transition:
+        transform 0.7s
+        cubic-bezier(.22, 1, .36, 1);
+
+}
+
+
+/* = HOVER = */
+
+.work-project:hover
+.work-project-image img {
+
+    filter:
+        grayscale(0%);
+
+    transform:
+        scale(1.025);
+
+}
+
+
+.work-project:hover
+.work-project-number {
+
+    transform:
+        translateY(-4px);
+
+}
+
+
+.work-project:hover
+.work-project-arrow {
+
+    transform:
+        translateX(7px);
+
+}
+
+
+/* = PAGE ENTRANCE = */
+
+.work-page {
+
+    opacity:
+        0;
+
+    transform:
+        translateY(20px);
+
+}
+
+
+.work-page.is-loaded {
+
+    opacity:
+        1;
+
+    transform:
+        translateY(0);
+
+    transition:
+        opacity 1s ease,
+        transform 1s
+        cubic-bezier(.22, 1, .36, 1);
+
+}
+
+
+.work-intro-header,
+.work-intro-text,
+.work-project {
+
+    opacity:
+        0;
+
+    transform:
+        translateY(25px);
+
+}
+
+
+.work-page.is-loaded
+.work-intro-header {
+
+    opacity:
+        1;
+
+    transform:
+        translateY(0);
+
+    transition:
+        opacity 0.8s ease 0.1s,
+        transform 0.8s
+        cubic-bezier(.22, 1, .36, 1) 0.1s;
+
+}
+
+
+.work-page.is-loaded
+.work-intro-text {
+
+    opacity:
+        1;
+
+    transform:
+        translateY(0);
+
+    transition:
+        opacity 0.8s ease 0.2s,
+        transform 0.8s
+        cubic-bezier(.22, 1, .36, 1) 0.2s;
+
+}
+
+
+.work-page.is-loaded
+.work-project:nth-child(1) {
+
+    opacity:
+        1;
+
+    transform:
+        translateY(0);
+
+    transition:
+        opacity 0.9s ease 0.35s,
+        transform 0.9s
+        cubic-bezier(.22, 1, .36, 1) 0.35s;
+
+}
+
+
+.work-page.is-loaded
+.work-project:nth-child(2) {
+
+    opacity:
+        1;
+
+    transform:
+        translateY(0);
+
+    transition:
+        opacity 0.9s ease 0.5s,
+        transform 0.9s
+        cubic-bezier(.22, 1, .36, 1) 0.5s;
+
+}
+
+
+.work-page.is-loaded
+.work-project:nth-child(3) {
+
+    opacity:
+        1;
+
+    transform:
+        translateY(0);
+
+    transition:
+        opacity 0.9s ease 0.65s,
+        transform 0.9s
+        cubic-bezier(.22, 1, .36, 1) 0.65s;
+
+}
+
+

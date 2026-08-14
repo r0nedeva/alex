@@ -1,0 +1,1331 @@
+/* =========================================================
+   Home page -> Vertical
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+    html,
+    body {
+
+        width: 100%;
+        height: auto;
+
+        overflow-x: hidden;
+        overflow-y: auto;
+
+    }
+
+
+    /* = Stage = */
+
+    .stage {
+
+        width: 100%;
+        height: auto;
+
+        overflow: visible;
+
+    }
+
+
+    /* = Hero = */
+
+    .hero {
+
+        position: relative;
+
+        width: 100%;
+        height: 100dvh;
+
+        padding:
+            6rem 1.5rem 2rem;
+
+    }
+
+
+    /* = Panel Track = */
+
+    .panel-track {
+
+        position: relative;
+
+        top: auto;
+        left: auto;
+
+        display: flex;
+
+        flex-direction: column;
+
+        width: 100%;
+        height: auto;
+
+        transform: none !important;
+
+    }
+
+
+    /* = Panels = */
+
+    .panel {
+
+        width: 100%;
+        height: 100dvh;
+
+        flex-shrink: 0;
+
+        padding:
+            6rem 1.5rem 2rem;
+
+        border-left: none;
+        border-top: 1px solid var(--divider);
+
+    }
+
+    /* = MOBILE CONTACT = */
+
+    .contact-body {
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        justify-content: center;
+
+        gap: 2rem;
+
+    }
+
+
+    /* CTA */
+
+    .contact-cta {
+
+        width: 100%;
+
+    }
+
+
+    /* Socials + QR */
+
+    .contact-sidebar {
+
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 1.5rem;
+
+    }
+
+
+    .social-links {
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 1.25rem;
+
+        margin-top: 1.2rem;
+
+    }
+
+
+    .qr-code {
+
+        width: 110px;
+
+        margin-top: 1.25rem;
+
+    }
+
+    .footer-signature {
+
+        position: relative;
+
+        right: auto;
+
+        bottom: auto;
+
+        margin-left: auto;
+
+    }
+}
+
+
+/* =========================================================
+   WORK
+   ========================================================= */
+/* - Tablet 900px - */
+@media (max-width: 1000px) {
+
+    .work-page {
+
+        padding:
+            8rem 2.5rem 6rem;
+
+    }
+
+
+    .work-intro {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            2rem;
+
+        margin-bottom:
+            7rem;
+
+    }
+
+
+    .work-intro-text {
+
+        max-width:
+            600px;
+
+    }
+
+
+    .work-projects {
+
+        gap:
+            2rem;
+
+    }
+
+}
+
+/* - Mobile 600px - */
+@media (max-width: 650px) {
+
+    .work-page {
+
+        padding:
+            7rem 1.25rem 5rem;
+
+    }
+
+
+    .work-intro {
+
+        gap:
+            1.5rem;
+
+        margin-bottom:
+            5rem;
+
+    }
+
+
+    .work-intro-header h1 {
+
+        font-size:
+            3rem;
+
+    }
+
+
+    .work-intro-text p {
+
+        font-size:
+            0.85rem;
+
+        line-height:
+            1.65;
+
+    }
+
+
+    .work-projects {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            5rem;
+
+    }
+
+
+    .work-project-number {
+
+        font-size:
+            4rem;
+
+    }
+
+}
+
+
+/* =========================================================
+   Work Projects -> Admiral Group
+   ========================================================= */
+
+/* - Tablet 900px - */
+@media (max-width: 1000px) {
+
+    .project-page {
+        padding: 10rem 2.5rem 6rem;
+    }
+
+    .project-intro {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .project-intro .project-text {
+        padding-bottom: 0;
+    }
+
+    .visual-system-layout {
+        grid-template-columns: 1fr;
+
+        gap: 4rem;
+    }
+
+    .visual-system-intro {
+        max-width: 620px;
+    }
+
+    .visual-system-wall {
+        width: 100%;
+    }
+
+    .color-palette {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .application-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .social-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .applications-wall-top {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .applications-wall-bottom {
+        width: 100%;
+    }
+
+    .application-frame--large {
+        grid-column: 1 / 3;
+        grid-row: 1;
+    }
+
+    .application-frame--portrait {
+        grid-column: 2;
+        grid-row: 2 / 4;
+    }
+
+    .application-frame--square {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .application-frame--wide {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    /* Typography */
+
+    .type-specimen {
+        padding: 5rem 3rem;
+    }
+
+    .type-specimen-content {
+        grid-template-columns: minmax(0, 1fr) 190px;
+
+        gap: 3rem;
+
+        min-height: 460px;
+    }
+
+    .type-large {
+        font-size: clamp(7rem, 15vw, 11rem);
+    }
+
+    .type-weight {
+        min-height: 52px;
+
+        font-size: 1.6rem;
+    }
+}
+
+
+/* - Mobile 600px - */
+@media (max-width: 650px) {
+
+    .project-page {
+        padding: 8rem 1.25rem 5rem;
+    }
+
+    .project-section {
+        margin-bottom: 10rem;
+    }
+
+    .project-section-header {
+        gap: 1rem;
+
+        margin-bottom: 2.5rem;
+    }
+
+    .section-number {
+        font-size: 2.25rem;
+    }
+
+    .project-section-header h1,
+    .project-section-header h2 {
+        font-size: .8rem;
+    }
+
+    .project-text p,
+    .visual-system-intro p {
+        font-size: .9rem;
+        line-height: 1.65;
+    }
+
+
+    /* Visual System */
+
+    .visual-system-wall {
+        grid-template-columns: 1fr 1fr;
+
+        grid-template-rows: auto auto;
+    }
+
+    .visual-frame--grain {
+        grid-column: 1;
+        grid-row: 1 / 3;
+    }
+
+    .visual-frame--sketches {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .visual-frame--construction {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .visual-logo-system {
+
+        grid-template-columns: 1fr;
+
+        gap: 3rem;
+
+        margin-top: 2rem;
+    }
+
+    .visual-frame--full img {
+        width: 45%;
+        height: auto;
+    }
+
+    .visual-frame--symbol img {
+        width: 18%;
+        height: auto;
+    }
+
+    .visual-frame--wordmark img {
+        width: 45%;
+        height: auto;
+    }
+
+    /* Color Palette */
+    .color-palette {
+        grid-template-columns: 1fr 1fr;
+
+        gap: .75rem;
+    }
+
+    .color-swatch img {
+        height: 160px;
+    }
+
+    /* Applications */
+    .application-gallery,
+    .social-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .applications-wall {
+        gap: 1rem;
+    }
+
+    .applications-wall-top,
+    .applications-wall-bottom {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        gap: 1rem;
+    }
+
+    /* Typography */
+
+    .typography-intro {
+        grid-template-columns: 1fr;
+
+        gap: 2rem;
+    }
+
+    .typography-meta {
+        align-items: flex-start;
+    }
+
+    .type-specimen {
+        padding: 4rem 1.5rem;
+    }
+
+    .type-specimen-content {
+        grid-template-columns: 1fr;
+
+        gap: 4rem;
+
+        min-height: auto;
+    }
+
+    .type-title {
+        font-size: 3rem;
+    }
+
+    .type-alphabet {
+        margin-top: 3rem;
+    }
+
+    .alphabet-row {
+        font-size: .85rem;
+    }
+
+    .type-large {
+        padding-top: 4rem;
+
+        font-size: 8rem;
+    }
+
+    .type-weights {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: .75rem;
+
+        padding: 0;
+    }
+
+    .type-weight {
+        min-height: 48px;
+
+        border-radius: 12px;
+
+        font-size: 1.2rem;
+    }
+
+    .type-weight--extra {
+        grid-column: 1 / -1;
+    }
+}
+
+/* =========================================================
+   Work Projects -> May Chef Atelier
+   ========================================================= */
+
+/* - Tablet 900px - */
+@media (max-width: 900px) {
+
+    .mc-container {
+        width:
+            min(100% - 56px, 1440px);
+    }
+
+
+    .mc-section {
+        padding-block:
+            90px;
+    }
+
+
+    .mc-section-label {
+        margin-bottom:
+            65px;
+    }
+
+
+    /* Brand system */
+
+    .mc-brand-system {
+
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+    }
+
+
+    .mc-system-copy {
+        max-width: 600px;
+    }
+
+
+    .mc-palette__visual {
+
+        padding: 0;
+
+        justify-content: flex-start;
+    }
+
+
+    /* Campaign / Editorial */
+
+    .mc-campaign__intro,
+    .mc-editorial__intro {
+
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+
+    /* Energy */
+
+    .mc-energy-grid {
+
+        grid-template-columns:
+            1fr 1fr;
+    }
+
+
+    .mc-energy-image--large {
+
+        grid-column:
+            span 2;
+
+        grid-row: auto;
+    }
+
+
+    /* Sport */
+
+    .mc-sport {
+
+        gap: 18px;
+
+        max-width: 100%;
+    }
+
+
+    .mc-sport__image {
+        width: 50%;
+    }
+
+
+    .mc-sport__image img {
+        width: 100%;
+    }
+
+
+    /* Editorial */
+
+    .mc-editorial-grid {
+
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+
+        gap: 24px;
+
+        margin-top: 60px;
+    }
+
+    .mc-editorial-card--wide,
+    .mc-editorial-card--tall,
+    .mc-editorial-card--feature,
+    .mc-editorial-card--small,
+    .mc-editorial-card--process,
+    .mc-editorial-card--prep,
+    .mc-editorial-card--meals,
+    .mc-editorial-card--space,
+    .mc-editorial-card--material {
+
+        grid-column: auto;
+    }
+
+
+    /* Footer */
+
+    .mc-footer {
+
+        grid-template-columns: 1fr;
+
+        gap: 12px;
+    }
+}
+
+/* - Mobile 600px - */
+@media (max-width: 600px) {
+
+    .mc-container {
+        width:
+            min(100% - 40px, 1440px);
+    }
+
+
+    .mc-section {
+        padding-block:
+            70px;
+    }
+
+
+    .mc-section-label {
+
+        align-items: center;
+
+        gap: 14px;
+
+        margin-bottom: 55px;
+
+        padding-bottom: 14px;
+    }
+
+
+    .mc-section-number {
+        font-size: 68px;
+    }
+
+
+    .mc-section-name {
+
+        font-size: 9px;
+
+        letter-spacing: 0.1em;
+    }
+
+
+    /* -----------------------------------------------------
+       OVERVIEW
+       ----------------------------------------------------- */
+
+    .mc-overview {
+        padding-top: 90px;
+    }
+
+
+    .mc-overview h1 {
+
+        font-size:
+            clamp(52px, 15vw, 85px);
+
+        line-height: 0.86;
+    }
+
+
+    .mc-overview h1 .mc-sans-accent {
+        font-size: 0.62em;
+    }
+
+
+    .mc-overview h1 {
+        margin-bottom: 32px;
+    }
+
+
+    .mc-overview__description {
+
+        width: 100%;
+
+        margin: 0 auto;
+    }
+
+
+    .mc-cover img {
+        max-height: 65vh;
+    }
+
+
+    .mc-meta {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 8px;
+    }
+
+    /* -----------------------------------------------------
+   ROLE / SCOPE
+   ----------------------------------------------------- */
+
+    .mc-scope {
+
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+
+    }
+
+
+    .mc-scope__roles {
+
+        width: 100%;
+
+    }
+
+
+    .mc-scope__role {
+
+        width: 100%;
+
+    }
+
+    /* -----------------------------------------------------
+       BRAND DIRECTION
+       ----------------------------------------------------- */
+
+    .mc-brand-system {
+        margin-bottom: 100px;
+    }
+
+
+    .mc-system-copy h3 {
+
+        font-size:
+            clamp(45px, 13vw, 70px);
+    }
+
+
+    .mc-palette__visual {
+        min-height: 250px;
+    }
+
+
+    /* -----------------------------------------------------
+       TYPOGRAPHY
+       ----------------------------------------------------- */
+
+    .mc-type-specimen {
+        gap: 50px;
+    }
+
+
+    .mc-typeface {
+
+        padding:
+            25px 0 30px;
+    }
+
+
+    .mc-type-name {
+
+        font-size:
+            clamp(38px, 11vw, 58px);
+    }
+
+
+    .mc-type-alphabet {
+
+        font-size: 12px;
+
+        white-space: normal;
+
+        word-break: break-word;
+    }
+
+
+    .mc-type-numbers {
+
+        font-size:
+            clamp(48px, 15vw, 80px);
+    }
+
+
+    /* -----------------------------------------------------
+       PRODUCT CAROUSEL
+       ----------------------------------------------------- */
+
+    .mc-section-heading {
+        text-align: left;
+    }
+
+
+    .mc-section-heading h2 {
+
+        font-size:
+            clamp(55px, 15vw, 90px);
+    }
+
+
+    .mc-carousel {
+
+        height: 430px;
+
+        padding-top: 10px;
+
+        margin:
+            60px 0;
+    }
+
+
+    .mc-slide {
+
+        width: 210px;
+
+        height: 300px;
+    }
+
+
+    .mc-slide.is-left {
+
+        transform:
+            translate(-50%, -50%) translateX(-58%) scale(0.72) rotate(-5deg);
+    }
+
+
+    .mc-slide.is-right {
+
+        transform:
+            translate(-50%, -50%) translateX(58%) scale(0.72) rotate(5deg);
+    }
+
+
+    /* -----------------------------------------------------
+       CAMPAIGN
+       ----------------------------------------------------- */
+
+    .mc-campaign__intro h2 {
+
+        font-size:
+            clamp(58px, 16vw, 92px);
+    }
+
+
+    .mc-energy-grid {
+
+        display: flex;
+
+        flex-direction: column;
+    }
+
+
+    .mc-energy-image {
+        width: 100%;
+    }
+
+
+    /* -----------------------------------------------------
+       SPORT
+       ----------------------------------------------------- */
+
+    .mc-sport {
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        gap: 24px;
+    }
+
+
+    .mc-sport__image {
+        width: 100%;
+    }
+
+
+    .mc-sport__image img {
+        width: 100%;
+    }
+
+
+    /* -----------------------------------------------------
+       EDITORIAL
+       ----------------------------------------------------- */
+
+    .mc-editorial__intro h2 {
+
+        font-size:
+            clamp(58px, 16vw, 95px);
+    }
+
+
+    .mc-editorial-grid {
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 24px;
+
+        margin-top: 50px;
+    }
+
+    .mc-editorial-card {
+
+        width: 100%;
+    }
+
+
+    .mc-editorial-card img {
+
+        width: 100%;
+
+        height: auto;
+    }
+
+
+    /* -----------------------------------------------------
+       FOOTER
+       ----------------------------------------------------- */
+
+    .mc-footer {
+
+        padding:
+            30px 20px;
+    }
+}
+
+
+/* == 11 / ACCESSIBILITY == */
+@media (prefers-reduced-motion: reduce) {
+
+    .may-chef *,
+    .may-chef *::before,
+    .may-chef *::after {
+
+        scroll-behavior: auto !important;
+
+        transition-duration:
+            0.01ms !important;
+
+        animation-duration:
+            0.01ms !important;
+
+        animation-iteration-count:
+            1 !important;
+    }
+}
+
+/* =========================================================
+   Work Projects -> Cherno More
+   ========================================================= */
+
+/* - Tablet 900px - */
+@media (max-width: 900px) {
+
+    .cherno-container {
+
+        width:
+            min(calc(100% - 50px),
+                760px);
+
+    }
+
+
+    .cherno-overview-grid {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            50px;
+
+    }
+
+
+    .cherno-overview-description {
+
+        max-width:
+            650px;
+
+    }
+
+
+    .cherno-grid {
+
+        gap:
+            50px 24px;
+
+    }
+
+}
+
+/* - Mobile 600px - */
+@media (max-width: 650px) {
+
+    .cherno-container {
+
+        width:
+            calc(100% - 32px);
+
+    }
+
+
+    .cherno-section {
+
+        padding:
+            90px 0;
+
+    }
+
+
+    .cherno-overview {
+
+        padding-top:
+            120px;
+
+    }
+
+
+    .cherno-section-label {
+
+        gap:
+            1rem;
+
+        margin-bottom:
+            60px;
+
+    }
+
+
+    .cherno-section-label .section-number {
+
+        font-size:
+            3.5rem;
+
+    }
+
+
+    .cherno-section-label .section-name {
+
+        font-size:
+            0.65rem;
+
+    }
+
+
+    .cherno-page h1 {
+
+        font-size:
+            clamp(3rem, 14vw, 5rem);
+
+    }
+
+
+    .cherno-page h2 {
+
+        font-size:
+            clamp(2.5rem, 12vw, 4rem);
+
+    }
+
+
+    .cherno-meta {
+
+        flex-direction: column;
+
+        gap: 0.5rem;
+
+    }
+
+
+    .cherno-grid {
+        grid-template-columns: 1fr;
+
+        gap: 55px;
+
+    }
+
+
+    .cherno-card figure {
+        aspect-ratio:
+            4 / 5;
+    }
+
+
+    .cherno-scope-item {
+        gap: 1rem;
+    }
+
+    .cherno-scope-item p {
+        font-size: 0.9rem;
+    }
+
+}
+
+/* = ACCESSIBILITY = */
+@media (prefers-reduced-motion: reduce) {
+
+    .cherno-page *,
+    .cherno-page *::before,
+    .cherno-page *::after {
+
+        animation-duration:
+            0.01ms !important;
+
+        animation-iteration-count:
+            1 !important;
+
+        transition-duration:
+            0.01ms !important;
+
+    }
+
+}
+
+/* =========================================================
+   PHOTOGRAPHY
+   ========================================================= */
+
+/* - Tablet 900px - */
+@media (max-width: 1000px) {
+
+    .photography-page {
+
+        padding:
+            8rem 2.5rem 6rem;
+
+    }
+
+
+    .photography-intro {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            2rem;
+
+        margin-bottom:
+            7rem;
+
+    }
+
+
+    .photography-intro-text {
+
+        max-width:
+            600px;
+
+    }
+
+
+    .photography-projects {
+
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+
+        gap:
+            2rem;
+
+    }
+
+}
+
+/* - Mobile 600px - */
+@media (max-width: 650px) {
+
+    .photography-page {
+
+        padding:
+            7rem 1.25rem 5rem;
+
+    }
+
+
+    .photography-intro {
+
+        gap:
+            1.5rem;
+
+        margin-bottom:
+            5rem;
+
+    }
+
+
+    .photography-intro-header h1 {
+
+        font-size:
+            3rem;
+
+    }
+
+
+    .photography-intro-text p {
+
+        font-size:
+            0.85rem;
+
+        line-height:
+            1.65;
+
+    }
+
+
+    .photography-projects {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            5rem;
+
+    }
+
+
+    .photography-project-number {
+
+        font-size:
+            4rem;
+
+    }
+
+}
+
+
+/* =========================================================
+   ARTWORK
+   ========================================================= */
+/* - Mobile 600px - */
+@media (max-width: 650px) {
+
+    .gallery-page {
+
+        padding:
+            7rem 1.25rem 5rem;
+
+    }
+
+
+    .gallery-placeholder-title {
+
+        font-size:
+            2.5rem;
+
+    }
+
+
+    .gallery-placeholder-text {
+
+        max-width:
+            300px;
+
+        line-height:
+            1.8;
+
+    }
+
+}

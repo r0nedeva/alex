@@ -1,0 +1,49 @@
+.hero {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: var(--hero-width);
+    height: 100dvh;
+
+    background: var(--bg);
+
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 6rem 0 2rem 2rem;
+
+    box-sizing: border-box;
+
+    overflow: hidden;
+
+}
+
+/* = Hero Image = */
+
+.hero .panel-media {
+
+    flex: none;
+
+    width: 78%;
+
+    display: block;
+
+}
+
+.hero .panel-media img {
+
+    width: 90%;
+    max-width: none;
+
+    max-height: none;
+
+    height: auto;
+
+    object-fit: contain;
+}

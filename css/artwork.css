@@ -1,0 +1,262 @@
+/* = Gallery page = */
+
+.gallery-page {
+
+    width: 100%;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding:
+        10rem
+        4rem
+        8rem;
+
+}
+
+
+/* = Placeholder = */
+.gallery-placeholder {
+
+    width: 100%;
+
+    max-width: 1100px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+
+}
+
+
+/* = Accent line = */
+.gallery-placeholder-line {
+
+    width: 0;
+
+    height: 1px;
+
+    margin-bottom:
+        2.5rem;
+
+    background:
+        var(--accent);
+
+    animation:
+        galleryLineIn
+        1.2s
+        cubic-bezier(.22, 1, .36, 1)
+        0.2s
+        forwards;
+
+}
+
+
+/* = Main Message = */
+.gallery-placeholder-title {
+
+    margin: 0;
+
+    font-family:
+        Georgia,
+        serif;
+
+    font-size:
+        clamp(2.5rem, 6vw, 6rem);
+
+    font-style:
+        italic;
+
+    font-weight:
+        400;
+
+    line-height:
+        0.9;
+
+    letter-spacing:
+        -0.05em;
+
+    color:
+        var(--accent);
+
+    opacity:
+        0;
+
+    transform:
+        translateY(25px);
+
+    animation:
+        galleryTextIn
+        1s
+        cubic-bezier(.22, 1, .36, 1)
+        0.45s
+        forwards;
+
+}
+
+
+/* = Secondary Message = */
+.gallery-placeholder-text {
+
+    margin:
+        1.5rem
+        0
+        0;
+
+    font-family:
+        "IBM Plex Mono",
+        monospace;
+
+    font-size:
+        clamp(0.75rem, 1vw, 0.9rem);
+
+    line-height:
+        1.6;
+
+    letter-spacing:
+        0.08em;
+
+    text-transform:
+        uppercase;
+
+    color:
+        var(--secondary-color);
+
+    opacity:
+        0;
+
+    transform:
+        translateY(15px);
+
+    animation:
+        galleryTextIn
+        0.9s
+        cubic-bezier(.22, 1, .36, 1)
+        0.7s
+        forwards;
+
+}
+
+/* = Loading Indicator = */
+
+.gallery-loading {
+
+    display: flex;
+
+    gap: 0.45rem;
+
+    margin-top: 2rem;
+    margin-bottom: 0.25rem;
+
+}
+
+
+.gallery-loading span {
+
+    display: block;
+
+    width: 5px;
+    height: 5px;
+
+    border-radius: 50%;
+
+    background:
+        var(--accent);
+
+    opacity: 0.25;
+
+    animation:
+        galleryDotPulse
+        1.4s
+        ease-in-out
+        infinite;
+
+}
+
+
+.gallery-loading span:nth-child(2) {
+
+    animation-delay:
+        0.2s;
+
+}
+
+
+.gallery-loading span:nth-child(3) {
+
+    animation-delay:
+        0.4s;
+
+}
+
+
+@keyframes galleryDotPulse {
+
+    0%,
+    60%,
+    100% {
+
+        opacity: 0.25;
+
+        transform:
+            translateY(0);
+
+    }
+
+    30% {
+
+        opacity: 1;
+
+        transform:
+            translateY(-4px);
+
+    }
+
+}
+
+/* = ANIMATION = */
+
+@keyframes galleryLineIn {
+
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 120px;
+    }
+
+}
+
+
+@keyframes galleryTextIn {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            translateY(25px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            translateY(0);
+
+    }
+
+}
+
+

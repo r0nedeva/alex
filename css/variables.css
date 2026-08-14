@@ -1,0 +1,18 @@
+
+:root {
+    /* Core  */
+    --bg: #0e0e0f;
+    --bg-contact: #ed0f62; 
+    --text: #F7F7F7;
+    --accent: #B71F58;
+
+    /* Supporting  */
+    --secondary-color: #A8A7AF;
+    --divider: var(--secondary-color);
+
+    /* Layout */
+    --hero-width: 70vw;
+    --panel-width: 100vw;
+    --nav-height: 96px;
+
+}
