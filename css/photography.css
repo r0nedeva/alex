@@ -1,4 +1,4 @@
-/* = PHOTOGRAPHY PAGE = */
+/* Photography Page */
 
 .photography-page {
 
@@ -16,7 +16,7 @@
 }
 
 
-/* = PHOTOGRAPHY INTRO = */
+/* Photography Intro */
 
 .photography-intro {
 
@@ -90,7 +90,7 @@
 }
 
 
-/* = PHOTOGRAPHY GRID = */
+/* Photography Grid */
 
 .photography-projects {
 
@@ -108,7 +108,7 @@
 }
 
 
-/* = PHOTOGRAPHY PROJECT = */
+/* Photography Project */
 
 .photography-project {
 
@@ -125,7 +125,7 @@
 }
 
 
-/* = PROJECT NUMBER = */
+/* Project Number */
 
 .photography-project-number {
 
@@ -164,7 +164,7 @@
 }
 
 
-/* = PROJECT IMAGE = */
+/* Project Image */
 
 .photography-project-image {
 
@@ -204,7 +204,7 @@
 }
 
 
-/* = PROJECT LABEL = */
+/* Project Label */
 
 .photography-project-label {
 
@@ -263,7 +263,7 @@
 }
 
 
-/* = HOVER = */
+/* Hover */
 
 .photography-project:hover
 .photography-project-image img {
@@ -295,7 +295,7 @@
 }
 
 
-/* = PAGE ENTRANCE = */
+/* Page Entrance */
 
 .photography-page {
 
@@ -337,7 +337,7 @@
 }
 
 
-/* = INTRO ENTRANCE = */
+/* Intro Entrance */
 
 .photography-page.is-loaded
 .photography-intro-header {
@@ -373,7 +373,7 @@
 }
 
 
-/* = PROJECT ENTRANCE = */
+/* Project Entrance */
 
 .photography-page.is-loaded
 .photography-project:nth-child(1) {

@@ -115,3 +115,23 @@ footer::before {
         var(--secondary-color);
 
 }
+
+.footer-signature {
+
+    color:
+        #2a2a2d;
+
+    font-family:
+        Georgia,
+        serif;
+
+    font-size:
+        .75rem;
+
+    font-style:
+        italic;
+
+    line-height:
+        1;
+
+}

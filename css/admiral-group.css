@@ -13,8 +13,7 @@
     margin-bottom: 10rem;
 }
 
-/* = SECTION HEADER = */
-
+/* Section header */
 .project-section-header {
     display: flex;
     align-items: baseline;
@@ -56,7 +55,7 @@
     text-transform: uppercase;
 }
 
-/* = BODY TEXT = */
+/* Body text */
 .project-text {
     max-width: 620px;
 }
@@ -68,8 +67,7 @@
     line-height: 1.7;
 }
 
-/* = PROJECT IMAGES = */
-
+/* Project images */
 .project-page img {
     display: block;
 
@@ -106,7 +104,7 @@
     border-radius: 18px;
 }
 
-/* = 01 — PROJECT OVERVIEW = */
+/* Project Overview */
 
 .project-intro {
     display: grid;
@@ -129,7 +127,7 @@
 }
 
 
-/* = 02 — VISUAL SYSTEM = */
+/* = Visual system */
 .visual-system-layout {
     display: block;
 }
@@ -273,7 +271,7 @@
     object-fit: contain;
 }
 
-/* = 04 — COLOR PALETTE = */
+/* Color palette */
 
 .color-palette {
     display: grid;
@@ -324,7 +322,7 @@
     text-transform: uppercase;
 }
 
-/* = 05 — TYPOGRAPHY = */
+/* Typography */
 
 .project-typography {
     position: relative;
@@ -332,7 +330,6 @@
 
 
 /* Intro */
-
 .typography-intro {
     display: grid;
 
@@ -381,8 +378,7 @@
 }
 
 
-/* = TYPE SPECIMEN = */
-
+/* Type Specimen */
 .type-specimen {
 
     position: relative;
@@ -402,7 +398,6 @@
 
 
 /* Main two-column layout */
-
 .type-specimen-content {
 
     display: grid;
@@ -417,8 +412,7 @@
 }
 
 
-/* = LEFT SIDE = */
-
+/* Left side */
 .type-specimen-left {
 
     display: flex;
@@ -432,7 +426,6 @@
 
 
 /* Title */
-
 .type-title {
 
     margin: 0;
@@ -495,7 +488,6 @@
 
 
 /* Large ABC */
-
 .type-large {
 
     display: flex;
@@ -524,8 +516,7 @@
 }
 
 
-/* = RIGHT SIDE — WEIGHTS = */
-
+/* Right side weights */
 .type-weights {
 
     display: flex;
@@ -570,8 +561,7 @@
 }
 
 
-/* Actual font weights */
-
+/* font weights */
 .type-weight:nth-child(1) span {
     font-weight: 400;
 }
@@ -617,7 +607,7 @@
 }
 
 
-/* = Gallery Wall = */
+/* Gallery Wall */
 .applications-wall {
     display: flex;
     flex-direction: column;
@@ -627,7 +617,7 @@
     width: 100%;
 }
 
-/* = Top Row = */
+/* Top Row */
 .applications-wall-top {
     display: grid;
 
@@ -639,7 +629,7 @@
     margin: 0 auto;
 }
 
-/* = Bottom Row = */
+/* Bottom Row */
 .applications-wall-bottom {
     display: grid;
 
@@ -651,7 +641,7 @@
     margin: 0 auto;
 }
 
-/* = Individual Images = */
+/* Individual Images */
 .application-frame {
     position: relative;
     overflow: hidden;
@@ -672,14 +662,13 @@
     object-fit: cover;
 }
 
-/* = Subtle Interaction = */
+/* Interaction */
 .application-frame:hover img {
     transform: scale(1.02);
 }
 
 
-/* = 07 — SOCIAL MEDIA = */
-
+/* Social media */
 .social-gallery {
     display: grid;
 
@@ -691,7 +680,7 @@
 }
 
 
-/* = PROJECT PAGE SCROLLING = */
+/* Project page scroll */
 
 html,
 body {

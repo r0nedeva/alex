@@ -1,7 +1,7 @@
 /* == CHERNO MORE TICHА == */
 
 
-/* = BASE = */
+/* Base */
 
 .cherno-page {
 
@@ -24,8 +24,7 @@
 }
 
 
-/* = SECTION = */
-
+/* Section */
 .cherno-section {
 
     padding:
@@ -100,7 +99,7 @@
 }
 
 
-/* = TYPOGRAPHY = */
+/* Typography */
 
 .cherno-page p,
 .cherno-page h1,
@@ -179,7 +178,7 @@
 }
 
 
-/* = 01 PROJECT OVERVIEW = */
+/* Project Overview */
 
 .cherno-overview {
 
@@ -228,7 +227,7 @@
 }
 
 
-/* = HERO = */
+/* Hero */
 
 .cherno-hero {
 
@@ -307,8 +306,7 @@
 }
 
 
-/* = 02 CONTENT = */
-
+/* Content */
 .cherno-content-intro {
 
     max-width: 820px;
@@ -334,7 +332,7 @@
 }
 
 
-/* = SCOPE = */
+/* Scope */
 
 .cherno-scope {
     border-top:
@@ -418,7 +416,7 @@
 }
 
 
-/* = SECTION HEADINGS = */
+/* Section Headings */
 
 .cherno-section-heading {
 
@@ -428,7 +426,7 @@
 }
 
 
-/* = IMAGE GRID = */
+/* Image grid */
 
 .cherno-grid {
 
@@ -488,14 +486,14 @@
 }
 
 
-/* = IMAGE HOVER = */
+/* Image hover */
 
 .cherno-card:hover figure img {
     transform: scale(1.012);
 }
 
 
-/* = CARD META = */
+/* Card meta */
 
 .cherno-card-meta {
 
@@ -571,7 +569,7 @@
 }
 
 
-/* = PAGE ENTRANCE = */
+/* Page Entrance */
 
 .cherno-overview>.cherno-container {
 
@@ -604,7 +602,7 @@
 }
 
 
-/* = SCOPE ENTRANCE = */
+/* Scope Entrance */
 
 .cherno-scope-item {
     animation:
@@ -631,7 +629,7 @@
     animation-delay: 0.42s;
 }
 
-/* = ACTIVE SCOPE ITEM = */
+/* Active Scope Item */
 .cherno-scope-item p {
 
     margin: 0;

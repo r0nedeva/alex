@@ -490,7 +490,7 @@
 }
 
 
-/* = 06 / 02 — BRAND DIRECTION = */
+/* Brand Direction */
 .mc-direction {
     background: var(--may-paper);
 }
@@ -539,7 +539,7 @@
 }
 
 
-/* - Description - */
+/* Description */
 .mc-brand-direction__description {
 
     max-width: 1450px;
@@ -580,7 +580,7 @@
 }
 
 
-/* - Brand System - */
+/* Brand System */
 .mc-brand-system {
 
     display: grid;
@@ -634,7 +634,7 @@
 }
 
 
-/* = COLOUR PALETTE = */
+/* Color palette */
 .mc-palette__visual {
 
     display: flex;
@@ -694,7 +694,7 @@
 }
 
 
-/* = TYPOGRAPHY = */
+/* Typography */
 .mc-typography {
 
     align-items: start;
@@ -749,7 +749,7 @@
 }
 
 
-/* - Typeface Card - */
+/* Typeface Card */
 .mc-typeface {
 
     position: relative;
@@ -779,7 +779,7 @@
 }
 
 
-/* - Type Label - */
+/* Type Label */
 .mc-type-label {
 
     margin-bottom: 12px;
@@ -798,7 +798,7 @@
 }
 
 
-/* - Type Name - */
+/* Type Name */
 .mc-type-name {
 
     margin-bottom: 25px;
@@ -826,7 +826,7 @@
 }
 
 
-/* - Alphabet - */
+/* Alphabet */
 .mc-type-alphabet {
 
     font-size:
@@ -852,7 +852,7 @@
 }
 
 
-/* - Numbers - */
+/* Numbers */
 .mc-type-numbers {
 
     margin-top: 18px;
@@ -879,7 +879,7 @@
 }
 
 
-/* = 07 / 03 — PRODUCT & INGREDIENTS = */
+/* Product and Ingredients */
 .mc-products {
 
     background: var(--may-black);
@@ -900,7 +900,7 @@
 }
 
 
-/* - SECTION HEADING - */
+/* Section Headings */
 .mc-section-heading {
 
     max-width: 850px;
@@ -954,7 +954,7 @@
 }
 
 
-/* - CAROUSEL - */
+/* Carousel */
 .mc-carousel {
 
     position: relative;
@@ -1097,7 +1097,7 @@
 }
 
 
-/* = 08 / 04 — CAMPAIGN = */
+/* Campaign */
 .mc-campaign {
     background: var(--may-paper);
 }
@@ -1164,7 +1164,7 @@
 }
 
 
-/* - ENERGY GRID - */
+/* Energy grid */
 
 .mc-energy-grid {
 
@@ -1205,7 +1205,7 @@
 }
 
 
-/* - SPORT / COLLABORATION - */
+/* Sport / Collab */
 .mc-sport {
 
     display: flex;
@@ -1248,7 +1248,7 @@
 }
 
 
-/* = 05 — SOCIAL CONTENT = */
+/* Social Content */
 .mc-editorial {
 
     background: var(--may-black);
@@ -1323,7 +1323,7 @@
 }
 
 
-/* - EDITORIAL GRID - */
+/* Editorial grid */
 .mc-editorial-grid {
 
     width: 100%;
@@ -1359,11 +1359,9 @@
 }
 
 
-/* =====================================================
-   EDITORIAL GRID POSITIONS
-===================================================== */
+/* Editorial Grid Positions */
 
-/* LARGE — LEFT */
+/* Large left */
 .mc-editorial-card--large:nth-child(1) {
 
     grid-column:
@@ -1375,7 +1373,7 @@
 }
 
 
-/* SMALL — TOP RIGHT */
+/* Small top right */
 .mc-editorial-card:nth-child(2) {
 
     grid-column: 3;
@@ -1405,7 +1403,7 @@
 }
 
 
-/* SMALL — BOTTOM LEFT */
+/* Small - bottom left */
 .mc-editorial-card:nth-child(6) {
 
     grid-column: 1;
@@ -1435,7 +1433,7 @@
 }
 
 
-/* LARGE — RIGHT */
+/* Large - right */
 .mc-editorial-card--large:nth-child(10) {
 
     grid-column:

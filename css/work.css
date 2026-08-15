@@ -1,4 +1,4 @@
-/* = WORK PAGE = */
+/* = Work Page = */
 
 
 .work-page {
@@ -16,7 +16,7 @@
 
 }
 
-/* = WORK INTRO = */
+/* = Work Intro = */
 .work-intro {
 
     display: grid;
@@ -89,7 +89,7 @@
 }
 
 
-/* = PROJECT GALLERY = */
+/* = Project Gallery = */
 
 .work-projects {
 
@@ -107,7 +107,7 @@
 }
 
 
-/* = PROJECT = */
+/* = Project = */
 
 .work-project {
 
@@ -124,7 +124,7 @@
 }
 
 
-/* = PROJECT NUMBER = */
+/* = Project Number = */
 
 .work-project-number {
 
@@ -163,7 +163,7 @@
 }
 
 
-/* = PROJECT IMAGE = */
+/* = Project Image = */
 
 .work-project-image {
 
@@ -201,7 +201,7 @@
 }
 
 
-/* = PROJECT LABEL = */
+/* = Project Label = */
 
 .work-project-label {
 
@@ -260,7 +260,7 @@
 }
 
 
-/* = HOVER = */
+/* = Hover = */
 
 .work-project:hover
 .work-project-image img {
@@ -292,7 +292,7 @@
 }
 
 
-/* = PAGE ENTRANCE = */
+/* = Page Entrance = */
 
 .work-page {
 
